@@ -1,0 +1,162 @@
+@import url(<link href="https://fonts.googleapis.com/
+css?family=Poppins:400,500i,600i&display=swap">);
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	background-image: url("img/contact.jpg");
+	min-height: 100vh;
+	background-size:cover;
+	background-position: center;
+}
+	header{
+		margin-top:-300px;
+		
+	}
+.contact{
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	cursor: pointer;
+	color: #fff;
+}
+.contact:hover{
+	background: #fff;
+	color: #000;
+	transition-duration: 5s;
+	
+}
+.contact.active:hover{
+	background: #000;
+	color: #fff;
+	transform:translate(-10%,-10%);
+}
+.contact.active
+{
+	margin-top: 130px;
+	min-width: 900px;
+}
+.contact h2
+{
+	
+	padding:20px;
+	width: 100%;
+	box-sizing: border-box;
+	text-shadow: 2px 2px 5px black;
+}
+
+.contact h2 span
+{
+	display: inline-block;
+	padding: 0;
+}
+.colorchange.active h2 span
+{
+	transform: rotate(45deg);
+	float: right;
+
+}
+.colorchange{
+	animation: colorchangeget 4s infinite;
+	
+}
+@keyframes colorchangeget{
+0%{color: black;}
+25%{color: #E5E6DD;}
+50%{color: white;}
+75%{color: #34495E ;}
+100%{color: #E5E6DD;}
+}
+form{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.contact .bar
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.contact .bar .col-2
+{
+	width: calc(50% - 10px);
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.contact .bar .fir
+{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.contact .bar:last-child .fir
+{
+	margin-bottom: 0;
+}
+.contact .bar .sec:nth-child(odd)
+{
+	margin-right: 10px;
+}
+.contact .bar .sec:nth-child(even)
+{
+	margin-left: 10px;
+}
+.contact label
+{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.contact input.text,
+.contact textarea
+{
+	width: 100%;
+	border: 2px solid #fff;
+	color: #fff;
+	background: transparent;
+	padding: 10px;
+	outline: none;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: consolas;
+	resize: none;
+}
+.contact textarea
+{
+	height: 150px;
+}
+.contact input[type="submit"]
+{
+	border: 2px solid #fff;
+	padding: 10px;
+	font-size: 18px;
+	color: #000;
+	background: #fff;
+	font-family: consolas;
+	outline: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.contact form
+{
+	visibility: hidden;
+	display: none;
+	transition: 0.5s;
+}
+.contact.active form
+{
+	visibility: visible;
+	display: block;
+}
+
+::placeholder
+{
+	color: #d8d8d8;
+	color: #9a9a9a;
+}

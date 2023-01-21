@@ -1,0 +1,219 @@
+@import url(<link href="https://fonts.googleapis.com/
+css?family=Poppins:400,500i,600i&display=swap">);
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #E5E6DD;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	color: #8A8985;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #7D7764;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #5BA689;
+}
+
+a:hover {
+}
+
+#wrapper {
+	overflow: hidden;
+	background: #F1F2E9;
+}
+
+.inner {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 600px;
+}
+
+#logo {
+	overflow: hidden;
+	height: 250px;
+}
+
+#logo h1, #logo p {
+	text-align: center;
+}
+
+#logo h1 {
+	padding: 50px 0px 0px 0px;
+	letter-spacing: -6px;
+	text-transform: lowercase;
+	font-family: 'Dancing Script', cursive;
+	font-size: 100px;
+}
+
+#logo p {
+	margin-top: -20px;
+	padding: 0px 0px 0px 5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #696969;
+}
+
+#logo p a {
+	color: #696969;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #40745E;
+}
+
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	padding: 20px 20px 40px 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 752px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	overflow: hidden;
+}
+
+.post .title {
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 3px solid #E0E1D6;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	font-size: 26px;
+	color: #373737;
+}
+
+.post .title a {
+	border: none;
+	color: #373737;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 384px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	color: #787878;
+}
+
+#sidebar h2 {
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 3px solid #E0E1D6;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	font-size: 26px;
+	color: #373737;
+}
+
+
+.list-style2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+
+
+
+/* Three Column Content */
+
+#three-column {
+	overflow: hidden;
+	padding: 10px 0px 50px 0px;
+}
+
+#three-column #tbox1 {
+	float: left;
+	width: 384px;
+	margin-right: 20px;
+}
+
+#three-column #tbox2 {
+	float: left;
+	width: 384px;
+}
+
+#three-column #tbox3 {
+	float: right;
+	width: 384px;
+}
+
+.box-style {
+	background: #191919;
+}
+
+.box-style h2 {
+	padding: 10px 0px;
+	letter-spacing: -1px;
+	font-size: 28px;
+	color: #FFFFFF;
+}
+
+.box-style .image {
+	width: 324px;
+}
+
+.box-style .arrow {
+}
+
+.box-style .content {
+	overflow: hidden;
+	width: 324px;
+	padding: 30px;
+}
+
+#footer{
+    background:black;
+   
+	}

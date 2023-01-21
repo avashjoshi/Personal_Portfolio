@@ -1,0 +1,5 @@
+@namespace pec url(www.pec.com);
+@namespace info url(www.info.com);
+pec|student{
+	background-color:red;
+}

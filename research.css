@@ -1,0 +1,35 @@
+@import url(<link href="https://fonts.googleapis.com/
+css?family=Poppins:400,500i,600i&display=swap">);
+
+body{
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.main{
+	width:100%;
+
+}
+
+.research{
+	 background-image: url("img/res.jpg");
+	background-attachment:fixed;
+	height:90vh;
+	background-size:cover;
+	background-position:center;
+}
+
+h4{
+		padding:10px 10px;
+		margin-left:30px;
+		font-weight:bold;
+		margin-top:500px;
+		
+}
+
+	.refer_desc2{
+					padding-left:10px;
+					margin-left:30px;	
+					
+				}
